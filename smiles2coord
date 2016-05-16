@@ -23,7 +23,7 @@ while getopts ":hv" opt "$@"
         exit 0
         ;;
       v)  # Version message.
-        grep "^#? molget" "$0" | cut -c 4-
+        grep "^#? smiles2coord" "$0" | cut -c 4-
         exit 0
         ;;
       \?)
